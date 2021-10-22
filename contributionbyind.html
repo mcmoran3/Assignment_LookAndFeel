@@ -81,7 +81,14 @@ body {
 <div class="content">
   <h2>Federal Election Commission</h2>
   <p>Below shows all the data related to individuals who have dontated to specific committees</p>
-</div>
+    If there is a record missing or you want to add a record of data please click add:<br />
+  
+
+    <button type="button" 
+        id="updateButton" 
+        class="btn btn-primary" 
+        onclick="Update();">Add</button>
+   </div>
     <table style="margin-left: auto; margin-right: auto;" class="GeneratedTable">
   <thead>
     <tr>
@@ -90,6 +97,7 @@ body {
       <th>Individual State</th>
       <th>Individual Occupation</th>
       <th>Transaction Amount</th>
+
     </tr>
   </thead>
   <tbody>
